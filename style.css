@@ -6,8 +6,31 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+   
     margin: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #fdf6e3; /* Light honey color */
+    height: 100vh;
+
 }
+
+.bee {
+  position: absolute;
+  font-size: 2rem;
+  animation: fall linear infinite;
+  pointer-events: none; /* Bees won't block clicks */
+}
+@keyframes fall {
+    0% {
+      transform: translateY(-50px) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0.7;
+    }
+  }
 
 h1 {
     color: #0056b3;
