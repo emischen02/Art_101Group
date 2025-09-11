@@ -8,3 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
 let emoji = "😊";
 console.log("Hello " + emoji); 
 // Output: Hello 😊
+let dog = "🐶"
+let cat = "😺"
+let bee = "🐝"
