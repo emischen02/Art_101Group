@@ -3,4 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let userName = 'John Doe';
     const userAge = 30;
     var isActiveUser = true;
-});
+}); 
+
+let emoji = "😊";
+console.log("Hello " + emoji); 
+// Output: Hello 😊
