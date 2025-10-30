@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collaborator Game</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Collaborator Game</h1>
+    <div class="controls">
+      <input id="nameInput" maxlength="20" placeholder="Enter name" />
+      <button id="setNameBtn">Set Name</button>
+    </div>
+  </header>
+  <main>
+    <canvas id="game" width="800" height="600"></canvas>
+    <div class="hint">Use WASD or Arrow Keys to move. Open in multiple tabs.</div>
+  </main>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+</body>
+</html>
+
+
